@@ -29,7 +29,7 @@ df3=pd.DataFrame({
     'cidade': ['São Paulo', 'Rio de Janeiro', 'Belo Horizonte', 'Salvador'],
     'lat': [-23.5505, -22.9083, -19.9208, -12.9704],
     'lon': [-46.6333, -43.1728, -43.9389, -38.5019],
-    'populacao': [1912.3, 3226444.7, 33112.5, 37722.9],
+    'populacao': [1912.3, 26444.7, 33112.5, 37722.9],
     'cor':np.random.rand(4, 4).tolist()
 })
 

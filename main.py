@@ -38,6 +38,6 @@ c1, c2=st.columns(2)
 with c1:
     st.map(df, size="populacao", color="cor", zoom=3)
 with c2:
-    st.map(df2, size="populacao", color="cor", zoom=3)
+    st.map(df2, size="populacao", color="cor", zoom=4)
     
-    st.map(df3, size="populacao", color="cor", zoom=3)
+    st.map(df3, size="populacao", color="cor", zoom=5)

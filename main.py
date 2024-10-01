@@ -2,6 +2,12 @@ import streamlit as st
 import plotly.express as px
 import numpy as np
 import pandas as pd
+st.set_page_config(
+        
+	layout = 'wide',
+        
+	initial_sidebar_state = 'collapsed' 
+)
 
 df=pd.DataFrame({
     'cidade': ['São Paulo', 'Rio de Janeiro', 'Belo Horizonte', 'Salvador'],
